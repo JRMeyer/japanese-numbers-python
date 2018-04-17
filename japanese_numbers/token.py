@@ -27,7 +27,7 @@ NUMBERS = {  # noqa
   for x in enumerate(('一', '二', '三', '四', '五', '六', '七', '八', '九', '十'))
 }
 
-NUMERICS = map(str, xrange(0, 10))
+NUMERICS = map(str, range(0, 10))
 
 TRANSLATE_NUMBERS = {  # noqa
   x[1]: x[0]

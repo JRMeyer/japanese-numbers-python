@@ -55,7 +55,7 @@ def to_arabic(val, encode='utf8'):
       numbers.append(n)
       index = token.pos if index < 0 else index
       texts.append(''.join(token.origin_char_at(x)
-                   for x in xrange(token.pos, token.pos + s)))
+                   for x in range(token.pos, token.pos + s)))
       token.next(incr=s)
 
     elif analyzing:
