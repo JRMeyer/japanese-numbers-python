@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- encoding:utf-8 -*-
-from __future__ import absolute_import
+
 
 from nose.tools import ok_
 from nose.tools import eq_
