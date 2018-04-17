@@ -54,6 +54,8 @@ class Tokenized(object):
       self.last_kind = self.kind
       self.kind, self.num_of_kind = self._kind_of(self.char)
 
+  __next__ = next  # alias next for python3
+  
   def has_next(self):
     return self.pos <= self._size - 1
 
